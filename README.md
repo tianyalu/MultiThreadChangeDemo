@@ -140,7 +140,7 @@ join()[阻塞]的作用是让指定的线程先执行完再执行其它线程，
 ##### 2.2.2 打印日志
 ![image](https://github.com/tianyalu/MultiThreadChangeDemo/blob/master/show/thread_join.png)
 
-#### 2.3 join()
+#### 2.3 yield()
 yield()[礼让]的作用是指定的线程先礼让一下其它线程，让其它线程先执行。  
 **注意**：  
 yield()会礼让给同优先级或者更高优先级的线程，不过yield()只是把本线程的状态打回就绪状态，所以执行该方法后，
